@@ -1,7 +1,7 @@
 {
     "attribution": "Natural Earth Data",
     "data": "https://s3.amazonaws.com/geojson-please/naturalearth-3.3.0/",
-    "license": "http://creativecommons.org/licenses/by/3.0/au/deed.en",
+    "license": "Public Domain",
     "website": "http://www.naturalearthdata.com/",
     "type": "GeoJSON"
 }
