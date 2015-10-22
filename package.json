@@ -1,0 +1,16 @@
+{
+  "name": "geojson-xyz-data",
+  "version": "1.0.0",
+  "description": "datasets available on geojson-xyz-data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geojson",
+    "xyz",
+    "data"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC"
+}
