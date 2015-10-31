@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var csvWriter = require('csv-write-stream');
+
+// directory with properties files outputted by download-properties script
+var inputDir = process.argv[2];
+
+var writer = csvWriter({ headers: ['value', 'property', 'files'] });
+writer.pipe(process.stdout.isTTY
+  ? fs.createWriteStream(process.argv[3])
+  : process.stdout);
+
+var index = {};
+
+fs.readdirSync(inputDir).forEach(function (file) {
+  try {
+    var proplist = JSON.parse(fs.readFileSync(path.join(inputDir, file)));
+    proplist.forEach(function (props) {
+      for (var key in props) {
+        if (props[key] && props[key].length && /name/i.test(key)) {
+          var k = encode(key, props[key]);
+          index[k] = index[k] || [];
+          index[k].push(file);
+        }
+      }
+    });
+  } catch(e) {
+    process.stderr.write('Error parsing properties for ' + file + '\n');
+  }
+});
+
+for (var key in index) {
+  var kv = decode(key);
+  writer.write({
+    value: kv[1],
+    property: kv[0],
+    files: index[key].join(';')
+  });
+}
+writer.end();
+
+function encode(key, value) {
+  return key.toLowerCase().replace('~', '~~') + '~' + value.replace('~', '~~');
+}
+
+function decode(value) {
+  return value.split(/[^~]~[^~]/).map(function (s) { return s.replace('~~', '~'); });
+}

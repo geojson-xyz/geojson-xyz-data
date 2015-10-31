@@ -1,0 +1,54 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var queue = require('queue-async');
+var request = require('request');
+var pump = require('pump');
+var features = require('geojson-stream').parse;
+var through = require('through2');
+var stringify = require('JSONStream').stringify;
+
+var inputDir = process.argv[2];
+var outputDirectory = process.argv[3];
+
+var metadata = require(path.resolve(inputDir, 'meta.json'));
+var files = require(path.resolve(inputDir, 'files.json'));
+
+getProperties(function (err) { if (err) { throw err; } });
+
+// Download every geojson, but save only the properties for each feature, i.e.
+// strip geometries
+function getProperties (callback) {
+  var q = queue(1);
+
+  for (var cat in files) {
+    for (var sub in files[cat]) {
+      files[cat][sub].forEach(function (f) {
+        var outputFile = path.join(outputDirectory, f);
+        if (fs.existsSync(outputFile)) {
+          process.stdout.write(outputFile + ' already exists: skipping.\n');
+        } else {
+          q.defer(function (cb) {
+            process.stdout.write('processing: ' + metadata.data + f + '\n');
+            pump(
+              request(metadata.data + f),
+              features(),
+              through.obj(function (feat, _, next) {
+                next(null, feat.properties);
+              }),
+              stringify(),
+              fs.createWriteStream(outputFile),
+              function (err) {
+                process.stdout.write('finished: ' + f + '\n');
+                cb(err);
+              }
+            );
+          });
+        }
+      });
+    }
+  }
+  q.awaitAll(callback);
+}
+

@@ -1,0 +1,53 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+
+if (process.argv.length < 4) {
+  throw new Error(['Usage:', process.argv[0], process.argv[1], 'path/to/properties/', 'path/to/metadata/'].join(' '));
+}
+var propertiesDir = process.argv[2];
+var outputDir = process.argv[3];
+
+var files = require(path.resolve(outputDir, 'files.json'));
+
+writePropertyMetadata();
+
+// Write 'properties.json' file with the same structure as the other metadata
+// files, mapping each geojson file to an object describing property types
+function writePropertyMetadata () {
+  var properties = {};
+  for (var cat in files) {
+    properties[cat] = {};
+    for (var sub in files[cat]) {
+      properties[cat][sub] = {};
+      files[cat][sub].forEach(function (f) {
+        var p = JSON.parse(fs.readFileSync(path.join(propertiesDir, f)));
+        properties[cat][sub][f] = propertyTypes(p);
+      });
+    }
+  }
+  fs.writeFileSync(path.join(outputDir, 'properties.json'), JSON.stringify(properties, null, 2));
+}
+
+// featureProps is an array of property objects
+function propertyTypes (featureProps) {
+  var types = {};
+  // collect types for each key
+  featureProps.forEach(function (props) {
+    for (var key in props) {
+      var type = props[key] !== null ? typeof props[key] : null;
+      if (!types[key]) {
+        types[key] = [type];
+      } else if (types[key].indexOf(type) < 0) {
+        types[key].push(type);
+      }
+    }
+  });
+  // almost always just one type, so we'll just make it a |-delimited string
+  // instead of an array
+  for (var key in types) {
+    types[key] = types[key].filter(function (t) { return !!t; }).join('|');
+  }
+  return types;
+}
