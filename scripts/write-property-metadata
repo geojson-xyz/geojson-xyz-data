@@ -19,7 +19,7 @@ writePropertyMetadata();
 
 function writePropertyMetadata () {
   files.forEach(function (f) {
-    var propertiesFile = path.join(propertiesDir, f.name.replace(/geojson$/, 'properties.json'));
+    var propertiesFile = path.join(propertiesDir, f.name);
     var p = JSON.parse(fs.readFileSync(propertiesFile));
     f.properties = propertyTypes(p);
   });

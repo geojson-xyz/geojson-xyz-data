@@ -22,7 +22,7 @@ function getProperties (callback) {
   var q = queue(1);
 
   files.forEach(function (f) {
-    var outputFile = path.join(outputDirectory, f.name.replace(/geojson$/, 'properties.json'));
+    var outputFile = path.join(outputDirectory, f.name);
     if (fs.existsSync(outputFile)) {
       process.stdout.write(outputFile + ' already exists: skipping.\n');
     } else {

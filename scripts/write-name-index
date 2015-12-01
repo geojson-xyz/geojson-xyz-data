@@ -4,25 +4,29 @@ var fs = require('fs');
 var path = require('path');
 var csvWriter = require('csv-write-stream');
 
-// directory with properties files outputted by download-properties script
-var inputDir = process.argv[2];
+if (process.argv.length < 3) {
+  process.stderr.write('Usage: write-name-index file1.json [file2.json file3.json ...] > output.csv');
+  process.exit(1);
+}
+
+var inputFiles = process.argv.slice(2);
 
 var writer = csvWriter({ headers: ['value', 'property', 'files'] });
-writer.pipe(process.stdout.isTTY
-  ? fs.createWriteStream(process.argv[3])
-  : process.stdout);
+writer.pipe(process.stdout);
 
 var index = {};
 
-fs.readdirSync(inputDir).forEach(function (file) {
+inputFiles
+.filter(function (file) { return /json$/.test(file); })
+.forEach(function (file) {
   try {
-    var proplist = JSON.parse(fs.readFileSync(path.join(inputDir, file)));
+    var proplist = JSON.parse(fs.readFileSync(file));
     proplist.forEach(function (props) {
       for (var key in props) {
         if (props[key] && props[key].length && /name/i.test(key)) {
           var k = encode(key, props[key]);
           index[k] = index[k] || [];
-          index[k].push(file);
+          index[k].push(path.basename(file.replace(/.properties.json/, '')));
         }
       }
     });
@@ -42,9 +46,9 @@ for (var key in index) {
 writer.end();
 
 function encode(key, value) {
-  return key.toLowerCase().replace('~', '~~') + '~' + value.replace('~', '~~');
+  return JSON.stringify([key.toLowerCase(), value]);
 }
 
-function decode(value) {
-  return value.split(/[^~]~[^~]/).map(function (s) { return s.replace('~~', '~'); });
+function decode(encoded) {
+  return JSON.parse(encoded);
 }
