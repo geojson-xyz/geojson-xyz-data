@@ -12,7 +12,6 @@ var stringify = require('JSONStream').stringify;
 var inputDir = process.argv[2];
 var outputDirectory = process.argv[3];
 
-var metadata = require(path.resolve(inputDir, 'meta.json'));
 var files = require(path.resolve(inputDir, 'files.json'));
 
 getProperties(function (err) { if (err) { throw err; } });
@@ -22,33 +21,38 @@ getProperties(function (err) { if (err) { throw err; } });
 function getProperties (callback) {
   var q = queue(1);
 
-  for (var cat in files) {
-    for (var sub in files[cat]) {
-      files[cat][sub].forEach(function (f) {
-        var outputFile = path.join(outputDirectory, f);
-        if (fs.existsSync(outputFile)) {
-          process.stdout.write(outputFile + ' already exists: skipping.\n');
-        } else {
-          q.defer(function (cb) {
-            process.stdout.write('processing: ' + metadata.data + f + '\n');
-            pump(
-              request(metadata.data + f),
-              features(),
-              through.obj(function (feat, _, next) {
-                next(null, feat.properties);
-              }),
-              stringify(),
-              fs.createWriteStream(outputFile),
-              function (err) {
-                process.stdout.write('finished: ' + f + '\n');
-                cb(err);
+  files.forEach(function (f) {
+    var outputFile = path.join(outputDirectory, f.name.replace(/geojson$/, 'properties.json'));
+    if (fs.existsSync(outputFile)) {
+      process.stdout.write(outputFile + ' already exists: skipping.\n');
+    } else {
+      q.defer(function (cb) {
+        var featureCount = 0;
+        process.stdout.write('processing: ' + f.name + '\n');
+        pump(
+          request(f.url),
+          features(),
+          through.obj(function (feat, _, next) {
+            featureCount++;
+            next(null, feat.properties);
+          }),
+          stringify(),
+          fs.createWriteStream(outputFile),
+          function (err) {
+            if (!err) {
+              process.stdout.write('finished: ' + f.name + '\n');
+              if (featureCount === 0) {
+                process.stdout.write('Warning: no features in ' + f.name + '\n');
+                fs.unlinkSync(outputFile);
               }
-            );
-          });
-        }
+            }
+            cb(err);
+          }
+        );
       });
     }
-  }
+  });
+
   q.awaitAll(callback);
 }
 
