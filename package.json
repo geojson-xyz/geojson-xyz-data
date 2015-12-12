@@ -1,6 +1,6 @@
 {
   "name": "geojson-xyz-data",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "datasets available on geojson-xyz-data",
   "main": "index.js",
   "scripts": {
