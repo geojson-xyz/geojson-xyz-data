@@ -2,931 +2,931 @@
   {
     "size": 130428,
     "name": "ne_110m_admin_1_states_provinces_shp.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp.geojson",
     "summary": "48 polygons",
     "category": "political_states"
   },
   {
     "size": 13540,
     "name": "ne_50m_wgs84_bounding_box.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_wgs84_bounding_box.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_wgs84_bounding_box.geojson",
     "summary": "1 polygon",
     "category": "misc"
   },
   {
     "size": 1359922,
     "name": "ne_50m_rivers_lake_centerlines_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_rivers_lake_centerlines_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_rivers_lake_centerlines_scale_rank.geojson",
     "summary": "1,618 lines",
     "category": "misc"
   },
   {
     "size": 1076631,
     "name": "ne_50m_rivers_lake_centerlines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_rivers_lake_centerlines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_rivers_lake_centerlines.geojson",
     "summary": "278 lines",
     "category": "misc"
   },
   {
     "size": 914888,
     "name": "ne_50m_populated_places_simple.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_populated_places_simple.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_populated_places_simple.geojson",
     "summary": "1,249 points",
     "category": "misc"
   },
   {
     "size": 2116617,
     "name": "ne_50m_populated_places.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_populated_places.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_populated_places.geojson",
     "summary": "1,249 points",
     "category": "misc"
   },
   {
     "size": 2313250,
     "name": "ne_50m_land.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_land.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_land.geojson",
     "summary": "1,419 polygons",
     "category": "land"
   },
   {
     "size": 2246099,
     "name": "ne_50m_graticules_5.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_graticules_5.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_graticules_5.geojson",
     "summary": "107 lines",
     "category": "graticules"
   },
   {
     "size": 322443,
     "name": "ne_50m_graticules_30.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_graticules_30.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_graticules_30.geojson",
     "summary": "17 lines",
     "category": "graticules"
   },
   {
     "size": 532802,
     "name": "ne_50m_graticules_20.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_graticules_20.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_graticules_20.geojson",
     "summary": "27 lines",
     "category": "graticules"
   },
   {
     "size": 684862,
     "name": "ne_50m_graticules_15.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_graticules_15.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_graticules_15.geojson",
     "summary": "35 lines",
     "category": "graticules"
   },
   {
     "size": 1058552,
     "name": "ne_50m_graticules_10.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_graticules_10.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_graticules_10.geojson",
     "summary": "53 lines",
     "category": "graticules"
   },
   {
     "size": 5512527,
     "name": "ne_50m_geography_regions_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_geography_regions_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_geography_regions_polys.geojson",
     "summary": "505 polygons",
     "category": "misc"
   },
   {
     "size": 46451,
     "name": "ne_50m_geography_regions_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_geography_regions_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_geography_regions_points.geojson",
     "summary": "162 points",
     "category": "misc"
   },
   {
     "size": 30198,
     "name": "ne_50m_geography_regions_elevation_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_geography_regions_elevation_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_geography_regions_elevation_points.geojson",
     "summary": "86 points",
     "category": "misc"
   },
   {
     "size": 2019638,
     "name": "ne_50m_geography_marine_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_geography_marine_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_geography_marine_polys.geojson",
     "summary": "115 polygons",
     "category": "misc"
   },
   {
     "size": 95460,
     "name": "ne_50m_geographic_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_geographic_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_geographic_lines.geojson",
     "summary": "5 lines",
     "category": "misc"
   },
   {
     "size": 6859,
     "name": "ne_110m_wgs84_bounding_box.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_wgs84_bounding_box.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_wgs84_bounding_box.geojson",
     "summary": "1 polygon",
     "category": "misc"
   },
   {
     "size": 47265,
     "name": "ne_110m_rivers_lake_centerlines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_rivers_lake_centerlines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_rivers_lake_centerlines.geojson",
     "summary": "14 lines",
     "category": "misc"
   },
   {
     "size": 178953,
     "name": "ne_110m_populated_places_simple.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_populated_places_simple.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_populated_places_simple.geojson",
     "summary": "243 points",
     "category": "misc"
   },
   {
     "size": 416923,
     "name": "ne_110m_populated_places.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_populated_places.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_populated_places.geojson",
     "summary": "243 points",
     "category": "misc"
   },
   {
     "size": 206105,
     "name": "ne_110m_land.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_land.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_land.geojson",
     "summary": "127 polygons",
     "category": "land"
   },
   {
     "size": 95460,
     "name": "ne_10m_geographic_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_geographic_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_geographic_lines.geojson",
     "summary": "5 lines",
     "category": "misc"
   },
   {
     "size": 2646058,
     "name": "ne_10m_geography_marine_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_geography_marine_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_geography_marine_polys.geojson",
     "summary": "307 polygons",
     "category": "misc"
   },
   {
     "size": 260761,
     "name": "ne_10m_geography_regions_elevation_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_geography_regions_elevation_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_geography_regions_elevation_points.geojson",
     "summary": "711 points",
     "category": "misc"
   },
   {
     "size": 67940,
     "name": "ne_10m_geography_regions_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_geography_regions_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_geography_regions_points.geojson",
     "summary": "235 points",
     "category": "misc"
   },
   {
     "size": 1058552,
     "name": "ne_10m_graticules_10.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_graticules_10.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_graticules_10.geojson",
     "summary": "53 lines",
     "category": "graticules"
   },
   {
     "size": 684862,
     "name": "ne_10m_graticules_15.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_graticules_15.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_graticules_15.geojson",
     "summary": "35 lines",
     "category": "graticules"
   },
   {
     "size": 532802,
     "name": "ne_10m_graticules_20.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_graticules_20.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_graticules_20.geojson",
     "summary": "27 lines",
     "category": "graticules"
   },
   {
     "size": 322443,
     "name": "ne_10m_graticules_30.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_graticules_30.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_graticules_30.geojson",
     "summary": "17 lines",
     "category": "graticules"
   },
   {
     "size": 2246099,
     "name": "ne_10m_graticules_5.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_graticules_5.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_graticules_5.geojson",
     "summary": "107 lines",
     "category": "graticules"
   },
   {
     "size": 2246099,
     "name": "ne_110m_graticules_5.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_graticules_5.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_graticules_5.geojson",
     "summary": "107 lines",
     "category": "graticules"
   },
   {
     "size": 322443,
     "name": "ne_110m_graticules_30.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_graticules_30.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_graticules_30.geojson",
     "summary": "17 lines",
     "category": "graticules"
   },
   {
     "size": 532802,
     "name": "ne_110m_graticules_20.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_graticules_20.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_graticules_20.geojson",
     "summary": "27 lines",
     "category": "graticules"
   },
   {
     "size": 684862,
     "name": "ne_110m_graticules_15.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_graticules_15.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_graticules_15.geojson",
     "summary": "35 lines",
     "category": "graticules"
   },
   {
     "size": 1058552,
     "name": "ne_110m_graticules_10.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_graticules_10.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_graticules_10.geojson",
     "summary": "53 lines",
     "category": "graticules"
   },
   {
     "size": 2434087,
     "name": "ne_110m_geography_regions_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_geography_regions_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_geography_regions_polys.geojson",
     "summary": "52 polygons",
     "category": "misc"
   },
   {
     "size": 919,
     "name": "ne_110m_geography_regions_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_geography_regions_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_geography_regions_points.geojson",
     "summary": "3 points",
     "category": "misc"
   },
   {
     "size": 1736501,
     "name": "ne_10m_minor_islands.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_minor_islands.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_minor_islands.geojson",
     "summary": "2,796 polygons",
     "category": "land"
   },
   {
     "size": 6874,
     "name": "ne_110m_geography_regions_elevation_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_geography_regions_elevation_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_geography_regions_elevation_points.geojson",
     "summary": "19 points",
     "category": "misc"
   },
   {
     "size": 435438,
     "name": "ne_10m_minor_islands_label_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_minor_islands_label_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_minor_islands_label_points.geojson",
     "summary": "2,738 points",
     "category": "land"
   },
   {
     "size": 290158,
     "name": "ne_10m_parks_and_protected_lands_area.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_area.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_area.geojson",
     "summary": "44 polygons",
     "category": "land"
   },
   {
     "size": 132536,
     "name": "ne_10m_parks_and_protected_lands_line.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_line.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_line.geojson",
     "summary": "17 lines",
     "category": "land"
   },
   {
     "size": 98957,
     "name": "ne_10m_parks_and_protected_lands_point.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_point.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_point.geojson",
     "summary": "315 points",
     "category": "land"
   },
   {
     "size": 303139,
     "name": "ne_10m_parks_and_protected_lands_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_parks_and_protected_lands_scale_rank.geojson",
     "summary": "109 polygons",
     "category": "land"
   },
   {
     "size": 1003248,
     "name": "ne_110m_geography_marine_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_geography_marine_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_geography_marine_polys.geojson",
     "summary": "29 polygons",
     "category": "misc"
   },
   {
     "size": 5311667,
     "name": "ne_10m_populated_places_simple.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_populated_places_simple.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_populated_places_simple.geojson",
     "summary": "7,322 points",
     "category": "misc"
   },
   {
     "size": 95460,
     "name": "ne_110m_geographic_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_geographic_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_geographic_lines.geojson",
     "summary": "5 lines",
     "category": "misc"
   },
   {
     "size": 69941,
     "name": "ne_10m_wgs84_bounding_box.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_wgs84_bounding_box.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_wgs84_bounding_box.geojson",
     "summary": "1 polygon",
     "category": "misc"
   },
   {
     "size": 4993579,
     "name": "ne_10m_rivers_north_america.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_rivers_north_america.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_rivers_north_america.geojson",
     "summary": "5,259 lines",
     "category": "misc"
   },
   {
     "size": 2853476,
     "name": "ne_10m_rivers_europe.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_rivers_europe.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_rivers_europe.geojson",
     "summary": "1,091 lines",
     "category": "misc"
   },
   {
     "size": 4045883,
     "name": "ne_50m_admin_0_countries.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_countries.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_countries.geojson",
     "summary": "122 polygons",
     "category": "political_countries"
   },
   {
     "size": 103648,
     "name": "ne_10m_admin_0_antarctic_claim_limit_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_antarctic_claim_limit_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_antarctic_claim_limit_lines.geojson",
     "summary": "23 lines",
     "category": "political_other"
   },
   {
     "size": 90650,
     "name": "ne_110m_admin_0_boundary_lines_land.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_boundary_lines_land.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_boundary_lines_land.geojson",
     "summary": "185 lines",
     "category": "political_boundaries"
   },
   {
     "size": 602548,
     "name": "ne_110m_admin_0_countries.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_countries.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_countries.geojson",
     "summary": "149 polygons",
     "category": "political_countries"
   },
   {
     "size": 1701591,
     "name": "ne_50m_urban_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_urban_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_urban_areas.geojson",
     "summary": "2,143 polygons",
     "category": "people_areas"
   },
   {
     "size": 610787,
     "name": "ne_110m_admin_0_map_units.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_map_units.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_map_units.geojson",
     "summary": "156 polygons",
     "category": "political_other"
   },
   {
     "size": 52629,
     "name": "ne_110m_admin_0_pacific_groupings.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_pacific_groupings.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_pacific_groupings.geojson",
     "summary": "62 lines",
     "category": "political_other"
   },
   {
     "size": 450819,
     "name": "ne_110m_admin_0_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_scale_rank.geojson",
     "summary": "289 polygons",
     "category": "political_other"
   },
   {
     "size": 595008,
     "name": "ne_110m_admin_0_sovereignty.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_sovereignty.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_sovereignty.geojson",
     "summary": "143 polygons",
     "category": "political_other"
   },
   {
     "size": 48395,
     "name": "ne_110m_admin_0_tiny_countries.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_tiny_countries.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_tiny_countries.geojson",
     "summary": "37 points",
     "category": "political_countries"
   },
   {
     "size": 146954,
     "name": "ne_10m_admin_0_boundary_lines_disputed_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_disputed_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_disputed_areas.geojson",
     "summary": "19 lines",
     "category": "political_boundaries"
   },
   {
     "size": 3196152,
     "name": "ne_10m_admin_0_boundary_lines_land.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_land.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_land.geojson",
     "summary": "91 lines",
     "category": "political_boundaries"
   },
   {
     "size": 86011,
     "name": "ne_10m_admin_0_boundary_lines_map_units.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_map_units.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_map_units.geojson",
     "summary": "15 lines",
     "category": "political_boundaries"
   },
   {
     "size": 205411,
     "name": "ne_10m_admin_0_boundary_lines_maritime_indicator.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_maritime_indicator.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_boundary_lines_maritime_indicator.geojson",
     "summary": "223 lines",
     "category": "political_boundaries"
   },
   {
     "size": 564450,
     "name": "ne_10m_admin_0_disputed_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_disputed_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_disputed_areas.geojson",
     "summary": "56 polygons",
     "category": "political_other"
   },
   {
     "size": 361393,
     "name": "ne_10m_admin_0_antarctic_claims.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_antarctic_claims.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_antarctic_claims.geojson",
     "summary": "8 polygons",
     "category": "political_other"
   },
   {
     "size": 519262,
     "name": "ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_disputed_areas_scale_rank_minor_islands.geojson",
     "summary": "212 polygons",
     "category": "political_other"
   },
   {
     "size": 2107692,
     "name": "ne_10m_admin_0_label_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_label_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_label_points.geojson",
     "summary": "7,084 points",
     "category": "political_other"
   },
   {
     "size": 213037,
     "name": "ne_10m_ports.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_ports.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_ports.geojson",
     "summary": "1,081 points",
     "category": "people_transport"
   },
   {
     "size": 86782,
     "name": "ne_10m_admin_0_pacific_groupings.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_pacific_groupings.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_pacific_groupings.geojson",
     "summary": "63 lines",
     "category": "political_other"
   },
   {
     "size": 43630,
     "name": "ne_10m_admin_0_seams.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_0_seams.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_0_seams.geojson",
     "summary": "26 lines",
     "category": "political_other"
   },
   {
     "size": 4031340,
     "name": "ne_10m_admin_1_label_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_1_label_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_1_label_points.geojson",
     "summary": "11,283 points",
     "category": "political_other"
   },
   {
     "size": 21104,
     "name": "ne_10m_admin_1_seams.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_admin_1_seams.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_admin_1_seams.geojson",
     "summary": "12 lines",
     "category": "political_other"
   },
   {
     "size": 315991,
     "name": "ne_10m_airports.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_airports.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_airports.geojson",
     "summary": "891 points",
     "category": "people_transport"
   },
   {
     "size": 22872,
     "name": "ne_50m_admin_0_tiny_countries_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_tiny_countries_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_tiny_countries_scale_rank.geojson",
     "summary": "76 points",
     "category": "political_countries"
   },
   {
     "size": 98963,
     "name": "ne_50m_admin_0_tiny_countries.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_tiny_countries.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_tiny_countries.geojson",
     "summary": "76 points",
     "category": "political_countries"
   },
   {
     "size": 3991634,
     "name": "ne_50m_admin_0_sovereignty.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_sovereignty.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_sovereignty.geojson",
     "summary": "101 polygons",
     "category": "political_other"
   },
   {
     "size": 3970832,
     "name": "ne_50m_admin_0_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_scale_rank.geojson",
     "summary": "1,634 polygons",
     "category": "political_other"
   },
   {
     "size": 52751,
     "name": "ne_50m_admin_0_pacific_groupings.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_pacific_groupings.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_pacific_groupings.geojson",
     "summary": "62 lines",
     "category": "political_other"
   },
   {
     "size": 4094356,
     "name": "ne_50m_admin_0_map_units.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_map_units.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_map_units.geojson",
     "summary": "137 polygons",
     "category": "political_other"
   },
   {
     "size": 4140487,
     "name": "ne_50m_admin_0_map_subunits.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_map_subunits.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_map_subunits.geojson",
     "summary": "172 polygons",
     "category": "political_other"
   },
   {
     "size": 2858072,
     "name": "ne_10m_railroads_north_america.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_railroads_north_america.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_railroads_north_america.geojson",
     "summary": "1,127 lines",
     "category": "people_transport"
   },
   {
     "size": 68599,
     "name": "ne_50m_admin_0_breakaway_disputed_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_breakaway_disputed_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_breakaway_disputed_areas.geojson",
     "summary": "22 polygons",
     "category": "political_other"
   },
   {
     "size": 14145,
     "name": "ne_50m_admin_0_boundary_map_units.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_boundary_map_units.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_boundary_map_units.geojson",
     "summary": "9 lines",
     "category": "political_boundaries"
   },
   {
     "size": 84477,
     "name": "ne_50m_admin_0_boundary_lines_maritime_indicator.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_boundary_lines_maritime_indicator.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_boundary_lines_maritime_indicator.geojson",
     "summary": "207 lines",
     "category": "political_boundaries"
   },
   {
     "size": 828784,
     "name": "ne_50m_admin_0_boundary_lines_land.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_boundary_lines_land.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_boundary_lines_land.geojson",
     "summary": "360 lines",
     "category": "political_boundaries"
   },
   {
     "size": 23372,
     "name": "ne_50m_admin_0_boundary_lines_disputed_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_boundary_lines_disputed_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_boundary_lines_disputed_areas.geojson",
     "summary": "23 lines",
     "category": "political_boundaries"
   },
   {
     "size": 2315342,
     "name": "ne_50m_coastline.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_coastline.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_coastline.geojson",
     "summary": "1,427 lines",
     "category": "water_other"
   },
   {
     "size": 27772,
     "name": "ne_10m_bathymetry_B_9000.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_bathymetry_B_9000.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_bathymetry_B_9000.geojson",
     "summary": "22 polygons",
     "category": "water_bathymetry"
   },
   {
     "size": 160424,
     "name": "ne_10m_bathymetry_D_7000.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_bathymetry_D_7000.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_bathymetry_D_7000.geojson",
     "summary": "57 polygons",
     "category": "water_bathymetry"
   },
   {
     "size": 1610280,
     "name": "ne_10m_bathymetry_E_6000.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_bathymetry_E_6000.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_bathymetry_E_6000.geojson",
     "summary": "491 polygons",
     "category": "water_bathymetry"
   },
   {
     "size": 130428,
     "name": "ne_110m_admin_1_states_provinces.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces.geojson",
     "summary": "48 polygons",
     "category": "political_states"
   },
   {
     "size": 60552,
     "name": "ne_110m_admin_1_states_provinces_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_lines.geojson",
     "summary": "110 lines",
     "category": "political_states"
   },
   {
     "size": 4282401,
     "name": "ne_10m_bathymetry_J_1000.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_bathymetry_J_1000.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_bathymetry_J_1000.geojson",
     "summary": "156 polygons",
     "category": "water_bathymetry"
   },
   {
     "size": 95052,
     "name": "ne_110m_admin_1_states_provinces_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_scale_rank.geojson",
     "summary": "48 polygons",
     "category": "political_states"
   },
   {
     "size": 95052,
     "name": "ne_110m_admin_1_states_provinces_shp_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp_scale_rank.geojson",
     "summary": "48 polygons",
     "category": "political_states"
   },
   {
     "size": 3995,
     "name": "ne_10m_bathymetry_A_10000.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_bathymetry_A_10000.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_bathymetry_A_10000.geojson",
     "summary": "3 polygons",
     "category": "water_bathymetry"
   },
   {
     "size": 56754,
     "name": "ne_10m_bathymetry_C_8000.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_bathymetry_C_8000.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_bathymetry_C_8000.geojson",
     "summary": "15 polygons",
     "category": "water_bathymetry"
   },
   {
     "size": 1329287,
     "name": "ne_50m_admin_1_states_provinces_shp_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_shp_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_shp_scale_rank.geojson",
     "summary": "59 polygons",
     "category": "political_states"
   },
   {
     "size": 1395924,
     "name": "ne_50m_admin_1_states_provinces_shp.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_shp.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_shp.geojson",
     "summary": "59 polygons",
     "category": "political_states"
   },
   {
     "size": 1395924,
     "name": "ne_50m_admin_1_states_provinces.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces.geojson",
     "summary": "59 polygons",
     "category": "political_states"
   },
   {
     "size": 1329287,
     "name": "ne_50m_admin_1_states_provinces_scale_rank.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_scale_rank.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_scale_rank.geojson",
     "summary": "59 polygons",
     "category": "political_states"
   },
   {
     "size": 305704,
     "name": "ne_50m_admin_1_states_provinces_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_lines.geojson",
     "summary": "202 lines",
     "category": "political_states"
   },
   {
     "size": 1721423,
     "name": "ne_10m_minor_islands_coastline.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_minor_islands_coastline.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_minor_islands_coastline.geojson",
     "summary": "2,741 lines",
     "category": "water_other"
   },
   {
     "size": 1449245,
     "name": "ne_50m_admin_1_states_provinces_lakes_shp.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_lakes_shp.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_lakes_shp.geojson",
     "summary": "57 polygons",
     "category": "water_lakes"
   },
   {
     "size": 706461,
     "name": "ne_10m_lakes_pluvial.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_lakes_pluvial.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_lakes_pluvial.geojson",
     "summary": "139 polygons",
     "category": "water_lakes"
   },
   {
     "size": 1471616,
     "name": "ne_10m_lakes_north_america.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_lakes_north_america.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_lakes_north_america.geojson",
     "summary": "1,199 polygons",
     "category": "water_lakes"
   },
   {
     "size": 89600,
     "name": "ne_50m_antarctic_ice_shelves_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_antarctic_ice_shelves_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_antarctic_ice_shelves_lines.geojson",
     "summary": "98 lines",
     "category": "water_ice"
   },
   {
     "size": 207341,
     "name": "ne_50m_antarctic_ice_shelves_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_antarctic_ice_shelves_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_antarctic_ice_shelves_polys.geojson",
     "summary": "63 polygons",
     "category": "water_ice"
   },
   {
     "size": 40742,
     "name": "ne_10m_lakes_historic.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_lakes_historic.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_lakes_historic.geojson",
     "summary": "3 polygons",
     "category": "water_lakes"
   },
   {
     "size": 891535,
     "name": "ne_10m_lakes_europe.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_lakes_europe.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_lakes_europe.geojson",
     "summary": "766 polygons",
     "category": "water_lakes"
   },
   {
     "size": 907227,
     "name": "ne_10m_antarctic_ice_shelves_polys.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_antarctic_ice_shelves_polys.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_antarctic_ice_shelves_polys.geojson",
     "summary": "154 polygons",
     "category": "water_ice"
   },
   {
     "size": 280936,
     "name": "ne_10m_antarctic_ice_shelves_lines.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_antarctic_ice_shelves_lines.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_antarctic_ice_shelves_lines.geojson",
     "summary": "145 lines",
     "category": "water_ice"
   },
   {
     "size": 34169,
     "name": "ne_110m_glaciated_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_glaciated_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_glaciated_areas.geojson",
     "summary": "11 polygons",
     "category": "water_ice"
   },
   {
     "size": 610596,
     "name": "ne_110m_admin_0_countries_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_0_countries_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_0_countries_lakes.geojson",
     "summary": "149 polygons",
     "category": "water_lakes"
   },
   {
     "size": 794410,
     "name": "ne_50m_glaciated_areas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_glaciated_areas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_glaciated_areas.geojson",
     "summary": "377 polygons",
     "category": "water_ice"
   },
   {
     "size": 130162,
     "name": "ne_110m_admin_1_states_provinces_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_lakes.geojson",
     "summary": "47 polygons",
     "category": "water_lakes"
   },
   {
     "size": 1449245,
     "name": "ne_50m_admin_1_states_provinces_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_1_states_provinces_lakes.geojson",
     "summary": "57 polygons",
     "category": "water_lakes"
   },
   {
     "size": 130162,
     "name": "ne_110m_admin_1_states_provinces_lakes_shp.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_lakes_shp.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_lakes_shp.geojson",
     "summary": "47 polygons",
     "category": "water_lakes"
   },
   {
     "size": 4210861,
     "name": "ne_50m_admin_0_countries_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_countries_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_admin_0_countries_lakes.geojson",
     "summary": "118 polygons",
     "category": "water_lakes"
   },
   {
     "size": 5789289,
     "name": "ne_10m_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_lakes.geojson",
     "summary": "1,344 polygons",
     "category": "water_lakes"
   },
   {
     "size": 787408,
     "name": "ne_50m_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_lakes.geojson",
     "summary": "398 polygons",
     "category": "water_lakes"
   },
   {
     "size": 10345,
     "name": "ne_50m_lakes_historic.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_lakes_historic.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_lakes_historic.geojson",
     "summary": "2 polygons",
     "category": "water_lakes"
   },
   {
     "size": 23521,
     "name": "ne_110m_lakes.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_lakes.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_lakes.geojson",
     "summary": "25 polygons",
     "category": "water_lakes"
   },
   {
     "size": 2327565,
     "name": "ne_50m_ocean.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_ocean.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_ocean.geojson",
     "summary": "0 features",
     "category": "water_oceans"
   },
   {
     "size": 271447,
     "name": "ne_10m_land_ocean_seams.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_land_ocean_seams.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_land_ocean_seams.geojson",
     "summary": "84 lines",
     "category": "water_oceans"
   },
   {
     "size": 192878,
     "name": "ne_110m_ocean.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_ocean.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_ocean.geojson",
     "summary": "2 polygons",
     "category": "water_oceans"
   },
   {
     "size": 620904,
     "name": "ne_10m_land_ocean_label_points.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_land_ocean_label_points.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_land_ocean_label_points.geojson",
     "summary": "4,109 points",
     "category": "water_oceans"
   },
   {
     "size": 50972,
     "name": "ne_50m_playas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_50m_playas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_playas.geojson",
     "summary": "33 polygons",
     "category": "water_other"
   },
   {
     "size": 205420,
     "name": "ne_110m_coastline.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_110m_coastline.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_coastline.geojson",
     "summary": "134 lines",
     "category": "water_other"
   },
   {
     "size": 224228,
     "name": "ne_10m_playas.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_playas.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_playas.geojson",
     "summary": "71 polygons",
     "category": "water_other"
   },
   {
     "size": 589458,
     "name": "ne_10m_reefs.geojson",
-    "url": "http://geojson.xyz/naturalearth-3.3.0/ne_10m_reefs.geojson",
+    "url": "https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_reefs.geojson",
     "summary": "1,043 lines",
     "category": "water_other"
   }
