@@ -3,22 +3,28 @@
 var fs = require('fs');
 var path = require('path');
 var csvWriter = require('csv-write-stream');
+var argv = require('minimist')(process.argv.slice(2));
 
-if (process.argv.length < 3) {
-  process.stderr.write('Usage: write-name-index file1.json [file2.json file3.json ...] > output.csv');
+if (!argv._.length) {
+  if (!argv.q) {
+    console.error('Usage: write-name-index DATA_DIR\nE.g.: write-name-index naturalearth-3.3.0');
+  }
   process.exit(1);
 }
 
-var inputFiles = process.argv.slice(2);
+var basedir = path.join(__dirname, '..', argv._[0], 'property-data');
+var inputFiles = fs.readdirSync(basedir)
+  .map(function (f) { return path.join(basedir, f); });
+var outputStream = fs.createWriteStream(path.join(basedir, '../name-index.csv'));
 
 var writer = csvWriter({ headers: ['value', 'property', 'files'] });
-writer.pipe(process.stdout);
+writer.pipe(outputStream);
 
 var index = {};
-
 inputFiles
 .filter(function (file) { return /json$/.test(file); })
 .forEach(function (file) {
+  if (argv.v) { console.log('indexing ' + file); }
   try {
     var proplist = JSON.parse(fs.readFileSync(file));
     proplist.forEach(function (props) {
@@ -31,7 +37,9 @@ inputFiles
       }
     });
   } catch(e) {
-    process.stderr.write('Error parsing properties for ' + file + '\n');
+    if (!argv.q) {
+      console.error('Warning: could not parse properties for ' + file + '\n', e);
+    }
   }
 });
 

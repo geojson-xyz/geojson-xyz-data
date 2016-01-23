@@ -8,9 +8,18 @@ var pump = require('pump');
 var features = require('geojson-stream').parse;
 var through = require('through2');
 var stringify = require('JSONStream').stringify;
+var mkdirp = require('mkdirp');
+var argv = require('minimist')(process.argv.slice(2));
 
-var inputDir = process.argv[2];
-var outputDirectory = process.argv[3];
+if (!argv._.length) {
+  console.log('Usage: download-properties DATA_DIR\nE.g.: download-properties naturalearth-3.3.0');
+  process.exit(1);
+}
+
+var inputDir = path.join(__dirname, '..', argv._[0]);
+var outputDirectory = path.join(inputDir, 'property-data');
+
+mkdirp.sync(outputDirectory);
 
 var files = require(path.resolve(inputDir, 'files.json'));
 
@@ -24,11 +33,11 @@ function getProperties (callback) {
   files.forEach(function (f) {
     var outputFile = path.join(outputDirectory, f.name);
     if (fs.existsSync(outputFile)) {
-      process.stdout.write(outputFile + ' already exists: skipping.\n');
+      print(outputFile + ' already exists: skipping.');
     } else {
       q.defer(function (cb) {
         var featureCount = 0;
-        process.stdout.write('processing: ' + f.name + '\n');
+        print('processing: ' + f.name);
         pump(
           request(f.url),
           features(),
@@ -40,9 +49,9 @@ function getProperties (callback) {
           fs.createWriteStream(outputFile),
           function (err) {
             if (!err) {
-              process.stdout.write('finished: ' + f.name + '\n');
+              print('finished: ' + f.name);
               if (featureCount === 0) {
-                process.stdout.write('Warning: no features in ' + f.name + '\n');
+                print('Warning: no features in ' + f.name);
                 fs.unlinkSync(outputFile);
               }
             }
@@ -56,3 +65,8 @@ function getProperties (callback) {
   q.awaitAll(callback);
 }
 
+function print () {
+  if (argv.v) {
+    console.log.apply(console, Array.prototype.slice.call(arguments));
+  }
+}
