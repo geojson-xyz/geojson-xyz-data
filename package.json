@@ -4,8 +4,7 @@
   "description": "datasets available on geojson-xyz-data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./build-index naturalearth-3.3.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "geojson",
@@ -20,14 +19,15 @@
     "geojson-summary": "^0.3.1"
   },
   "dependencies": {
-    "csv-write-stream": "^1.0.0",
     "JSONStream": "^1.0.6",
+    "csv-write-stream": "^1.0.0",
     "geojson-stream": "0.0.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "pump": "^1.0.0",
     "queue-async": "^1.0.7",
     "request": "^2.65.0",
-    "through2": "^2.0.0"
+    "through2": "^2.0.0",
+    "uniq": "^1.0.1"
   }
 }

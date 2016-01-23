@@ -2,6 +2,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var uniq = require('uniq');
 var csvWriter = require('csv-write-stream');
 var argv = require('minimist')(process.argv.slice(2));
 
@@ -48,7 +49,7 @@ for (var key in index) {
   writer.write({
     value: kv[1],
     property: kv[0],
-    files: index[key].join(';')
+    files: uniq(index[key]).join(';')
   });
 }
 writer.end();
