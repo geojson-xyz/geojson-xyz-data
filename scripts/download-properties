@@ -1,0 +1,72 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var queue = require('queue-async');
+var request = require('request');
+var pump = require('pump');
+var features = require('geojson-stream').parse;
+var through = require('through2');
+var stringify = require('JSONStream').stringify;
+var mkdirp = require('mkdirp');
+var argv = require('minimist')(process.argv.slice(2));
+
+if (!argv._.length) {
+  console.log('Usage: download-properties DATA_DIR\nE.g.: download-properties naturalearth-3.3.0');
+  process.exit(1);
+}
+
+var inputDir = path.join(__dirname, '..', argv._[0]);
+var outputDirectory = path.join(inputDir, 'property-data');
+
+mkdirp.sync(outputDirectory);
+
+var files = require(path.resolve(inputDir, 'files.json'));
+
+getProperties(function (err) { if (err) { throw err; } });
+
+// Download every geojson, but save only the properties for each feature, i.e.
+// strip geometries
+function getProperties (callback) {
+  var q = queue(1);
+
+  files.forEach(function (f) {
+    var outputFile = path.join(outputDirectory, f.name);
+    if (fs.existsSync(outputFile)) {
+      print(outputFile + ' already exists: skipping.');
+    } else {
+      q.defer(function (cb) {
+        var featureCount = 0;
+        print('processing: ' + f.name);
+        pump(
+          request(f.url),
+          features(),
+          through.obj(function (feat, _, next) {
+            featureCount++;
+            next(null, feat.properties);
+          }),
+          stringify(),
+          fs.createWriteStream(outputFile),
+          function (err) {
+            if (!err) {
+              print('finished: ' + f.name);
+              if (featureCount === 0) {
+                print('Warning: no features in ' + f.name);
+                fs.unlinkSync(outputFile);
+              }
+            }
+            cb(err);
+          }
+        );
+      });
+    }
+  });
+
+  q.awaitAll(callback);
+}
+
+function print () {
+  if (argv.v) {
+    console.log.apply(console, Array.prototype.slice.call(arguments));
+  }
+}

@@ -15,7 +15,19 @@
   "license": "ISC",
   "devDependencies": {
     "aws-sdk": "^2.2.15",
-    "geojson-summary": "^0.3.1",
-    "queue-async": "^1.0.7"
+    "end-of-stream": "^1.1.0",
+    "geojson-summary": "^0.3.1"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.6",
+    "csv-write-stream": "^1.0.0",
+    "geojson-stream": "0.0.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "pump": "^1.0.0",
+    "queue-async": "^1.0.7",
+    "request": "^2.65.0",
+    "through2": "^2.0.0",
+    "uniq": "^1.0.1"
   }
 }

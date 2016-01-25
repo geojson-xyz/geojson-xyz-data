@@ -1,0 +1,63 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var uniq = require('uniq');
+var csvWriter = require('csv-write-stream');
+var argv = require('minimist')(process.argv.slice(2));
+
+if (!argv._.length) {
+  if (!argv.q) {
+    console.error('Usage: write-name-index DATA_DIR\nE.g.: write-name-index naturalearth-3.3.0');
+  }
+  process.exit(1);
+}
+
+var basedir = path.join(__dirname, '..', argv._[0], 'property-data');
+var inputFiles = fs.readdirSync(basedir)
+  .map(function (f) { return path.join(basedir, f); });
+var outputStream = fs.createWriteStream(path.join(basedir, '../name-index.csv'));
+
+var writer = csvWriter({ headers: ['value', 'property', 'files'] });
+writer.pipe(outputStream);
+
+var index = {};
+inputFiles
+.filter(function (file) { return /json$/.test(file); })
+.forEach(function (file) {
+  if (argv.v) { console.log('indexing ' + file); }
+  try {
+    var proplist = JSON.parse(fs.readFileSync(file));
+    proplist.forEach(function (props) {
+      for (var key in props) {
+        if (props[key] && props[key].length && /name/i.test(key)) {
+          var k = encode(key, props[key]);
+          index[k] = index[k] || [];
+          index[k].push(path.basename(file.replace(/.properties.json/, '')));
+        }
+      }
+    });
+  } catch(e) {
+    if (!argv.q) {
+      console.error('Warning: could not parse properties for ' + file + '\n', e);
+    }
+  }
+});
+
+for (var key in index) {
+  var kv = decode(key);
+  writer.write({
+    value: kv[1],
+    property: kv[0],
+    files: uniq(index[key]).join(';')
+  });
+}
+writer.end();
+
+function encode(key, value) {
+  return JSON.stringify([key.toLowerCase(), value]);
+}
+
+function decode(encoded) {
+  return JSON.parse(encoded);
+}

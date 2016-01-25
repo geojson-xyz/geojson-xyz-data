@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+echo "Building feature index; this will take a minute or two."
+rm $1/name-index.csv
+./scripts/download-properties $1 -q
+./scripts/write-name-index $1 -q
+rm -rf $1/property-data

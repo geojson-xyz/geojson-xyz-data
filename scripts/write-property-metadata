@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+
+// Updates files.json by adding  `properties` (mapping property name to
+// inferred type) to each item.
+
+var fs = require('fs');
+var path = require('path');
+
+if (process.argv.length < 4) {
+  process.stderr.write(['Usage:', process.argv[0], process.argv[1], 'path/to/properties/', 'path/to/metadata/files.json\n'].join(' '));
+  process.exit(1);
+}
+var propertiesDir = process.argv[2];
+var fileList = process.argv[3];
+
+var files = JSON.parse(fs.readFileSync(fileList));
+
+writePropertyMetadata();
+
+function writePropertyMetadata () {
+  files.forEach(function (f) {
+    var propertiesFile = path.join(propertiesDir, f.name);
+    var p = JSON.parse(fs.readFileSync(propertiesFile));
+    f.properties = propertyTypes(p);
+  });
+
+  fs.writeFileSync(fileList, JSON.stringify(files, null, 2));
+}
+
+// featureProps is an array of property objects
+function propertyTypes (featureProps) {
+  var types = {};
+  // collect types for each key
+  featureProps.forEach(function (props) {
+    for (var key in props) {
+      var type = props[key] !== null ? typeof props[key] : null;
+      if (!types[key]) {
+        types[key] = [type];
+      } else if (types[key].indexOf(type) < 0) {
+        types[key].push(type);
+      }
+    }
+  });
+  // almost always just one type, so we'll just make it a |-delimited string
+  // instead of an array
+  for (var key in types) {
+    types[key] = types[key].filter(function (t) { return !!t; }).join('|');
+  }
+  return types;
+}
